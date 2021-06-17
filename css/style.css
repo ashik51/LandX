@@ -456,6 +456,10 @@ h3 {
     
 }
 
+#video .videocol iframe {
+    border: 0px;
+}
+
 .vtext i {
     margin-right: 10px;
     color: #0199e6;
