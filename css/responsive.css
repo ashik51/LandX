@@ -1,0 +1,560 @@
+@media only screen and (max-width: 1200px){
+
+    .container {
+        width: 900px;
+    }
+
+    #banner .register {
+        width: 100%;
+    }
+
+    #banner form input {
+        width: 200px;
+    }
+
+    #banner .getstarted {
+        padding: 18px 30px;
+    }
+
+    #banner .freetrial p {
+        margin: 10px 130px 0px 0px;
+    }
+
+    .innerleft {
+        min-height: 100px;
+        width: 15%;
+    }
+
+    h2 {
+    font-size: 29px;
+    }
+
+    #pricing .row3 {
+        grid-template-columns: 400px 400px;
+    }
+
+    #pricing .col-3:last-child {
+        margin-top: 30px;
+    }
+
+    .priceheading {
+        grid-column: span 2;
+    }
+
+}
+
+
+@media only screen and (max-width: 920px) {
+    .container {
+        width: 700px;
+    }
+
+    .bannertexts h1 {
+        font-size: 35px;
+    }
+    
+
+    #banner p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 28px;
+    }
+
+    #banner .register {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    #banner form input {
+        width: 140px;
+    }
+
+    #banner .getstarted {
+        padding: 18px 15px;
+    }
+
+    #banner .freetrial p {
+        margin: 10px 110px 0px 0px;
+    }
+
+    h2 {
+        font-size: 22px;
+        }
+
+    .innerleft {
+        min-height: 100px;
+        width: 20%;
+    }
+
+    #pricing .row3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .priceheading {
+        grid-column: span 2;
+    }
+
+    #video .videocol iframe {
+        width: 600px;
+    }
+
+    #trusted .col-4 img {
+        margin: 0px 10px;
+    }
+
+    #video .row4 {
+        grid-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .container {
+        width: 650px;
+    }
+
+    .bannertexts h1 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    
+    #banner p {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    #banner .register {
+        background-color: transparent;
+        width: 98%;
+    }
+
+    #banner form input {
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+
+    #banner .getstarted {
+        padding: 18px 80px;
+    }
+
+    #banner .freetrial p {
+        margin: 20px 350px 0px 0px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    #explore, #product {
+        padding: 0px 0px;
+        margin: 50px 0px;
+    }
+
+    h2 {
+    font-size: 30px;
+    }
+
+    .innerleft {
+        min-height: 70px;
+        width: 10%;
+    }
+
+    .fheading h2::after {
+        transform: translateX(108%);
+        margin: 15px 0px;
+    }
+
+    #features, #pricing {
+        padding: 0px 0px;
+        margin: 100px 0px;
+    }
+
+    .row2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px 0px;
+        text-align: center;
+    }
+
+    .row2 img {
+        margin-bottom: -20px;
+    }
+    
+    .fheading {
+        grid-column: span 1;
+    }
+
+    #pricing .row3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px 0px;
+    }
+
+    .priceheading {
+        grid-column: span 1;
+        margin-bottom: -80px;
+    }
+
+    .priceheading h2::after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 1px;
+        background: #0199e6;
+        transform: translateX(79%);
+        margin: 20px 0px;
+    }
+
+    #pricing .col-3:last-child {
+        margin-top: 0px;
+    }
+        
+    #video, #trusted {
+        padding: 0px 0px;
+        margin: 100px 0px;
+    }
+
+    #video .row4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        grid-gap: 30px;
+    }
+    
+    #video .videoheading {
+        grid-column: span 1;
+        margin-bottom: -50px;
+    }
+
+    #video .videocol {
+        grid-column: span 1;
+    }
+
+    #video .videocol iframe {
+        width: 500px;
+        margin-bottom: -50px;
+    }
+
+    .videoheading h2::after {
+        transform: translateX(80%);
+        margin: 15px 0px;
+    }
+
+    .vtext h3 {
+        font-size: 18px;
+    }
+
+    .trustedheading h2::after {
+        background: #0199e6;
+        transform: translateX(173%);
+        margin: 15px 0px;
+    }
+
+    .trustedheading p {
+        margin-bottom: 45px;
+    }
+    
+    #trusted .col-4 img {
+        margin: 0px 15px;
+        width: 100px
+    }
+
+    #banner2 {
+        padding: 50px 0px;
+    }
+
+    #banner2 .container h1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 20px 0px
+    }
+
+    #banner2 .getstarted {
+        padding: 15px 20px;
+    }
+
+    footer {
+        padding: 0px 0px;
+        margin: 30px 0px;
+    }
+
+    footer .row5 {
+        grid-row-gap: 100px;
+    }
+
+    footer .footerheading h4 {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 500px;
+    }
+
+    #banner p br {
+        display: none;
+    }
+
+    #banner .freetrial p {
+        margin: 10px 220px 0px 0px;
+    }
+
+    #video .videocol iframe {
+        width: 400px;
+    }
+
+    #video .videoheading {
+        grid-column: span 1;
+        margin-bottom: -70px;
+    }
+    #video .videocol iframe {
+        width: 500px;
+        margin-bottom: -80px;
+    }
+
+    #trusted .col-4 img {
+        margin: 0px 10px;
+        width: 80px
+    }
+
+    #banner2 {
+        padding: 50px 0px;
+    }
+
+    #banner2 .container h1 {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px 0px
+    }
+    
+}
+
+@media only screen and (max-width: 510px) {
+    .container {
+        width: 400px;
+    }
+    
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    #banner .bannercontent {
+        padding: 0;
+    }
+
+    #banner .bannertexts {
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+
+    #banner .bannertexts h1 {
+    font-size: 25px;
+    line-height: 40px;
+    }
+
+    #banner span {
+        font-size: 30px;
+    }
+
+    #banner p {
+        font-size: 16px;
+    }
+
+    #banner .register {
+        width: 100%;
+        padding: 0px 10px;
+        margin-top: 0px;
+    }
+
+    #banner .getstarted {
+        width: 100%;
+    }
+
+    #banner .freetrial p {
+        text-align: left;
+        margin: 0px;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 19px;
+    }
+    
+    .line {
+        margin: 15px 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .innerleft {
+        float: left;
+        min-height: 100px;
+        width: 15%;
+    }
+
+    #product,
+    #features,
+    #pricing,
+    #video,
+    #trusted {
+        margin: 60px 0px;
+    }
+
+    .fheading h2,
+    .priceheading h2,
+    .videoheading h2,
+    .trustedheading h2 {
+        font-size: 25px;
+    }
+
+    .fheading h2::after {
+        transform: translateX(80%);
+        margin: 15px 0px;
+    }
+
+    #features .titlep {
+        font-size: 16px;
+    }
+
+    #features .row2 {
+        grid-gap: 40px;
+    }
+
+    .priceheading h2::after {
+        transform: translateX(55%);
+        margin: 15px 0px;
+    }
+
+    .videoheading h2::after {
+        transform: translateX(55%);
+        margin: 15px 0px;
+    }
+
+    #video .videocol iframe {
+        width: 360px;
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+
+    #video .row4 {
+        grid-gap: 15px;
+    }
+
+    .vtext h3 {
+        font-size: 16px;
+    }
+
+    .vtext {
+        margin-bottom: 20px;
+    }
+
+    .trustedheading h2::after {
+        transform: translateX(135%);
+        margin: 15px 0px;
+    }
+
+    #trusted .col-4 img {
+        /* width: 70px; */
+        margin: 0px 30px 10px;
+    }
+
+    #banner2 .container h1 {
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+
+    #banner2 .getstarted {
+        padding: 12px 15px;
+    }
+
+    footer .footerheading h3 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 360px;
+    }
+
+    .innerleft {
+        float: left;
+        min-height: 90px;
+        width: 15%;
+    }
+
+    #video .videocol iframe {
+        width: 300px;
+    }
+
+    #banner2 .container h1 {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    footer .footerheading h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .container {
+        width: 330px;
+    }
+    footer .footerheading h3 {
+        font-size: 19px;
+    }
+
+    .innerleft {
+        float: left;
+        min-height: 90px;
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .container {
+        width: 300px;
+    }
+
+    #video .videocol iframe {
+        width: 250px;
+    }
+
+    #banner #g
+
+    #banner2 .container h1 {
+        font-size: 14px;
+        padding: 20px 0px;
+    }
+
+    footer .footerheading h3 {
+        font-size: 16px;
+    }
+
+    #banner .bannertexts h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #banner span {
+        font-size: 25px;
+    }
+
+    #banner .getstarted {
+        padding: 18px 0px;
+    }
+
+    .innerleft {
+        float: left;
+        min-height: 110px;
+        width: 18%;
+    }
+}
